@@ -18,7 +18,7 @@ app.use(passport.initialize());
 
 
 mongoose
-  .connect("mongodb+srv://ChatSuite:ChatSuite01@cluster0.y5y2ebj.mongodb.net/", {
+  .connect("mongodb+srv://username:password@cluster0.y5y2ebj.mongodb.net/", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
